@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 
 body {
-  background: #fff;
+  background: #1e025f;
   color: #666666;
   font-family: "Open Sans", sans-serif;
 }
@@ -126,6 +126,9 @@ h6 {
 
 #header {
   padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   height: 92px;
   position: fixed;
   left: 0;
@@ -435,6 +438,7 @@ h6 {
 .nav-menu li:hover > a,
 .nav-menu > .menu-active > a {
   color: #18d26e;
+  margin-left: 10px;
 }
 
 .nav-menu > li {
@@ -597,7 +601,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header h3 {
   font-size: 32px;
-  color: #111;
+  color: #f0eeee;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -631,14 +635,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-header p {
   text-align: center;
   padding-bottom: 30px;
-  color: #333;
+  color: #eeeded;
 }
 
 /* Section with background
 --------------------------------*/
 
 .section-bg {
-  background: #f7f7f7;
+  background: #1e025f;
 }
 
 /* Featured Services Section
@@ -1322,11 +1326,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 15px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #999;
+  color: #faf7f7;
 }
 
 #contact .contact-info a {
-  color: #000;
+  color: #f3f0f0;
 }
 
 #contact .contact-info a:hover {
